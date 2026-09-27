@@ -24,7 +24,7 @@
     />
 
     <!-- Головний файл стилів -->
-    <link rel="stylesheet" crossorigin href="/blended-starter-mod-5-6-132-13/assets/index-BlC-pVMM.css">
+    <link rel="stylesheet" crossorigin href="/blended-starter-mod-5-6-132-13/assets/index-BPli4ZE3.css">
   </head>
   <body>
     <!-- Нижче підключені частинки html, не змінюй тут нічого -->
@@ -175,7 +175,7 @@
   </div>
 </section>
 
-      <section id="about" class="about-section hidden">
+      <section id="about" class="about-section">
   <div class="container about-container">
     <h2 class="sr-only">About</h2>
 
@@ -210,12 +210,26 @@
     </ol>
 
     <div class="about-img-wrapper">
-      <img
-        class="about-img"
-        src="/blended-starter-mod-5-6-132-13/assets/about-desk-CVEaGBAK.jpg"
-        alt="about"
-        width="432"
-      />
+      <picture>
+        <source
+          srcset="/blended-starter-mod-5-6-132-13/assets/about-desk-CVEaGBAK.jpg 1x, /blended-starter-mod-5-6-132-13/assets/about-desk@2x-CykUFPwr.jpg 2x"
+          media="(min-width: 1280px)"
+        />
+        <source
+          srcset="/blended-starter-mod-5-6-132-13/assets/about-tab-BbQHmheT.jpg 1x, /blended-starter-mod-5-6-132-13/assets/about-tab@2x-7EtAP0i5.jpg 2x"
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="/blended-starter-mod-5-6-132-13/assets/about-mob-B-yvQ6NQ.jpg 1x, /blended-starter-mod-5-6-132-13/assets/about-mob@2x-v6Ob0PEl.jpg 2x"
+          media="(max-width: 767px)"
+        />
+        <img
+          class="about-img"
+          src="/blended-starter-mod-5-6-132-13/assets/about-desk-CVEaGBAK.jpg"
+          alt="about"
+          width="432"
+        />
+      </picture>
     </div>
   </div>
 </section>
