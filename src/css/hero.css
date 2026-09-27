@@ -10,6 +10,24 @@
   background-position: center;
 }
 
+@media screen and (min-resolution: 2x) {
+  .hero-section {
+    background-image: url(../img/hero/hero-desk@2x.jpg);
+  }
+}
+
+.hero-title {
+  max-width: 1001px;
+  margin: 0 auto;
+  margin-bottom: 24px;
+
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-align: center;
+}
+
 .hero-text {
   max-width: 597px;
   margin: 0 auto;
@@ -47,9 +65,15 @@
   background-color: #fbfbfb;
 }
 
-@media screen and (min-resolution: 2x) {
+/* Планшетні стилі */
+@media screen and (min-width: 768px) {
   .hero-section {
-    background-image: url(../img/hero/hero-desk@2x.jpg);
+    padding-top: 220px;
+    padding-bottom: 180px;
+  }
+
+  .hero-title {
+    font-size: 70px;
   }
 
   .hero-text {
@@ -62,30 +86,6 @@
 
     font-size: 18px;
     line-height: 1.1;
-  }
-}
-
-.hero-title {
-  max-width: 1001px;
-  margin: 0 auto;
-  margin-bottom: 24px;
-
-  font-weight: 500;
-  font-size: 32px;
-  line-height: 1;
-  letter-spacing: -0.02em;
-  text-align: center;
-}
-
-/* Планшетні стилі */
-@media screen and (min-width: 768px) {
-  .hero-section {
-    padding-top: 220px;
-    padding-bottom: 180px;
-  }
-
-  .hero-title {
-    font-size: 70px;
   }
 }
 
